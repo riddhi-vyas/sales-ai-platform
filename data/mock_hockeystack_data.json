@@ -1,0 +1,119 @@
+[
+  {
+    "account_id": "acme_corp_001",
+    "company_name": "Acme Corporation",
+    "domain": "acme-corp.com",
+    "industry": "Financial Services",
+    "employee_count": 5000,
+    "revenue": "$500M",
+    "last_activity": "2024-12-19T10:30:00Z",
+    "intent_signals": [
+      {
+        "type": "pricing_page_visit",
+        "timestamp": "2024-12-19T10:30:00Z",
+        "user_title": "Chief Information Security Officer",
+        "page_url": "/pricing/enterprise",
+        "session_duration": 420
+      },
+      {
+        "type": "pricing_page_visit",
+        "timestamp": "2024-12-19T09:15:00Z",
+        "user_title": "VP of Engineering",
+        "page_url": "/pricing/enterprise",
+        "session_duration": 380
+      },
+      {
+        "type": "demo_request",
+        "timestamp": "2024-12-18T16:45:00Z",
+        "user_title": "Director of IT Security",
+        "form_data": {
+          "use_case": "Enterprise security compliance",
+          "timeline": "Q1 2025",
+          "budget": "$100K-500K"
+        }
+      },
+      {
+        "type": "documentation_deep_dive",
+        "timestamp": "2024-12-18T14:20:00Z",
+        "user_title": "Senior Security Engineer",
+        "pages_visited": [
+          "/docs/security",
+          "/docs/compliance",
+          "/docs/api"
+        ],
+        "total_time": 1200
+      }
+    ],
+    "intent_score": 85,
+    "processed": true
+  },
+  {
+    "account_id": "techstart_002",
+    "company_name": "TechStart Solutions",
+    "domain": "techstart.io",
+    "industry": "SaaS",
+    "employee_count": 250,
+    "revenue": "$25M",
+    "last_activity": "2024-12-19T11:15:00Z",
+    "intent_signals": [
+      {
+        "type": "competitor_comparison",
+        "timestamp": "2024-12-19T11:15:00Z",
+        "user_title": "CTO",
+        "page_url": "/vs/competitor-x",
+        "session_duration": 300
+      },
+      {
+        "type": "pricing_page_visit",
+        "timestamp": "2024-12-19T10:45:00Z",
+        "user_title": "CTO",
+        "page_url": "/pricing/growth",
+        "session_duration": 180
+      },
+      {
+        "type": "case_study_download",
+        "timestamp": "2024-12-18T15:30:00Z",
+        "user_title": "Head of Product",
+        "resource": "saas-scaling-case-study.pdf"
+      }
+    ],
+    "intent_score": 72,
+    "processed": true
+  },
+  {
+    "account_id": "global_enterprise_003",
+    "company_name": "Global Enterprise Inc",
+    "domain": "globalent.com",
+    "industry": "Manufacturing",
+    "employee_count": 15000,
+    "revenue": "$2.5B",
+    "last_activity": "2024-12-19T09:00:00Z",
+    "intent_signals": [
+      {
+        "type": "pricing_page_visit",
+        "timestamp": "2024-12-19T09:00:00Z",
+        "user_title": "Chief Digital Officer",
+        "page_url": "/pricing/enterprise",
+        "session_duration": 600
+      },
+      {
+        "type": "roi_calculator_usage",
+        "timestamp": "2024-12-18T17:30:00Z",
+        "user_title": "VP of Operations",
+        "inputs": {
+          "current_spend": "$2M",
+          "team_size": 500,
+          "efficiency_target": "30%"
+        }
+      },
+      {
+        "type": "whitepaper_download",
+        "timestamp": "2024-12-18T16:00:00Z",
+        "user_title": "Director of Digital Transformation",
+        "resource": "manufacturing-digital-transformation.pdf"
+      }
+    ],
+    "intent_score": 78,
+    "processed": true
+  }
+]
